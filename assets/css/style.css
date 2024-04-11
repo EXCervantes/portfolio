@@ -15,7 +15,6 @@
 }
 
 html {
-    line-height: 1.5;
     background-color: transparent;
 }
 
@@ -27,14 +26,23 @@ body {
     min-height: 100vh;
 }
 
-header {
-  padding: 6rem 2rem;
-  font-size: 1.2rem;
-}
-
 .container {
   display:flex;
   flex-direction: row;
+}
+
+.column-left {
+  width: 50%;
+  align-content: flex-start;
+}
+
+.column-right {
+  width: 50%;
+}
+
+header {
+  padding: 6rem 2rem;
+  font-size: 1.2rem;
 }
 
 h1 {
