@@ -32,6 +32,11 @@ header {
   font-size: 1.2rem;
 }
 
+.container {
+  display:flex;
+  flex-direction: row;
+}
+
 h1 {
     color: var(--litblu);
     font-size: 3rem;
