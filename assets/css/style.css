@@ -53,6 +53,7 @@ nav a {
   padding: 8px;
   left: 0;
   text-decoration: none;
+  list-style: none;
   font-size: 20px;
   color: var(--white);
   border-radius: 8px 0 8px 0;
@@ -84,21 +85,13 @@ h2 {
     font-size: 1.3rem;
     opacity: 100%;
     width: 78.5%;
-}
+  }
 
 h3 {
   color: var(--litblu);
     font-size: 1.2rem;
     opacity: 100%;
     width: 74.5%;
-}
-
-
-
-  ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
   }
   
   #about {
@@ -122,23 +115,17 @@ h3 {
   }
 
  main {
-    display: flex;
-    flex-direction: column;
     min-height: 20vh;
-    justify-content: flex-start;
     width: 85%;
   }
 
 main p {
     color: var(--bodytext);
-    display: grid;
     font-size: 1.2rem;
     width: 74.5%;
-    
 } 
 
 .card {
-  display: box;
   margin-bottom: 20px;
   padding: 50px;
   height: 300px;
