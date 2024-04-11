@@ -36,6 +36,25 @@ body {
   align-content: flex-start;
 }
 
+nav a {
+    position: absolute;
+    margin-top: 13rem;
+    padding: 13px;
+    width: -60px;
+    left: 0;
+    text-decoration: none;
+    font-size: 20px;
+    color: var(--white);
+    border-radius: 8px 0 8px 0;
+  }
+  
+  nav a:hover {
+    cursor: url( "../images/cursorcomet.png" ), auto;
+    box-shadow: 3px 3px 3px #aaaaaa, inset  0 -3em 3em rgb(10 10 10 / 30%);
+    left: 10px;
+    transform: scale(1.1);
+  }
+  
 .column-right {
   width: 50%;
 }
@@ -70,24 +89,7 @@ h3 {
     width: 74.5%;
 }
 
-nav a {
-    position: absolute;
-    margin-top: 13rem;
-    padding: 13px;
-    width: -60px;
-    left: 0;
-    text-decoration: none;
-    font-size: 20px;
-    color: var(--white);
-    border-radius: 8px 0 8px 0;
-  }
-  
-  nav a:hover {
-    cursor: url( "../images/cursorcomet.png" ), auto;
-    box-shadow: 3px 3px 3px #aaaaaa, inset  0 -3em 3em rgb(10 10 10 / 30%);
-    left: 10px;
-    transform: scale(1.1);
-  }
+
 
   ul {
     margin: 0;
