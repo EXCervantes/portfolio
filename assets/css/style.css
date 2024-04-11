@@ -66,8 +66,9 @@ nav a {
   }
 
 header {
-  padding: 6rem 2rem;
-  font-size: 1.2rem;
+  padding: 2.5rem 2rem;
+  font-size: 1.5rem;
+  text-align: center;
 }
 
 h1 {
@@ -75,22 +76,19 @@ h1 {
     font-size: 3rem;
     width: 80%;
     margin: 40px 20px;
-    text-align: right;
     opacity: 100%;
   }
 
 h2 {
   color: var(--litblu);
     font-size: 1.3rem;
-    text-align: right;
     opacity: 100%;
     width: 78.5%;
 }
 
 h3 {
   color: var(--litblu);
-    font-size: 1.4rem;
-    text-align: right;
+    font-size: 1.2rem;
     opacity: 100%;
     width: 74.5%;
 }
@@ -126,30 +124,18 @@ h3 {
  main {
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    min-height: 20vh;
     justify-content: flex-start;
-    width: 75%;
-    margin-left: 30vw;
+    width: 85%;
   }
 
 main p {
     color: var(--bodytext);
     display: grid;
-    font-size: 1.4rem;
-    text-align: right;
+    font-size: 1.2rem;
     width: 74.5%;
     
 } 
-
-.content {
-  display: flexbox;
-  flex-flow: column warp;
-  width: 75%;
-  margin-right: 20px;
-  align-items: baseline;
-  align-content: stretch;
-  text-align: center;
-}
 
 .card {
   display: box;
