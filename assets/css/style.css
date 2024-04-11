@@ -66,34 +66,6 @@ nav a {
     transform: scale(1.1);
   }
 
-header {
-  padding: 2.5rem 2rem;
-  font-size: 1.5rem;
-  text-align: center;
-}
-
-h1 {
-    color: var(--litblu);
-    font-size: 3rem;
-    width: 80%;
-    margin: 40px 20px;
-    opacity: 100%;
-  }
-
-h2 {
-  color: var(--litblu);
-    font-size: 1.3rem;
-    opacity: 100%;
-    width: 78.5%;
-  }
-
-h3 {
-  color: var(--litblu);
-    font-size: 1.2rem;
-    opacity: 100%;
-    width: 74.5%;
-  }
-  
   #about {
     top: 40px;
     background-color: var(--spaceblue);
@@ -114,6 +86,33 @@ h3 {
     background-color: var(--spaceblue);
   }
 
+header {
+  padding: 2rem 0 0 4rem;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+h1 {
+    color: var(--litblu);
+    font-size: 3rem;
+    width: 80%;
+    margin: 40px 20px;
+    opacity: 100%;
+  }
+
+h2 {
+  color: var(--litblu);
+    font-size: 1.3rem;
+    opacity: 100%;
+  }
+
+h3 {
+  color: var(--litblu);
+    font-size: 1.3rem;
+    opacity: 100%;
+    padding: 35px;
+  }
+  
  main {
     min-height: 20vh;
     width: 85%;
@@ -121,9 +120,17 @@ h3 {
 
 main p {
     color: var(--bodytext);
-    font-size: 1.2rem;
-    width: 74.5%;
+    font-size: 1.3rem;
+    padding: 10px;
 } 
+
+section {
+  padding: 30px;
+}
+
+.first-project {
+max-height: 250px;
+}
 
 .card {
   margin-bottom: 20px;
@@ -133,9 +140,8 @@ main p {
 }
 
 .card img {
-  max-height: 200px;
+  max-height: 180px;
   float: left;
-  margin-right: 25px;
   border: 2px solid var(--spaceblue);
 }
 
