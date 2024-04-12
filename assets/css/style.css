@@ -134,6 +134,12 @@ section a {
   text-decoration: none;
 }
 
+section a[href$=".css"]::after {
+  content: "🌠";
+  display: inline-block;
+  margin-left: 3px;
+}
+
 section a:hover {
   color:#00A0C6; 
   text-decoration:none;
@@ -164,6 +170,7 @@ max-height: 250px;
 .profile-pic {
   border-radius: 50%;
   max-height: 200px;
+  max-width: 100%;
   border: 3px solid var(--white);
 }
 
@@ -183,22 +190,36 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+  .container,
+  main {
+    max-width: 100%;
+  }
+  
   nav {
-    display: flex;
+   display: flex;
     width: 100%;
     height: 1vh;
-    position: relative;
-  
-    .card {
-      flex: 0 0 50%;
+    position: relative; 
+  }
+
+  section
+   {
+ padding: 10px;
     }
   }
-}
 
-/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
-@media screen and (max-width: 400px) {
-  nav a {
-    text-align: center;
-    float: none;
+  @media screen and (max-width: 400px) {
+    nav a {
+      text-align: center;
+      float: none;
+    }
+
+  .container,
+  main {
+    max-width:100%
+   }
+ 
+  section {
+  padding: 10px;
+   }
   }
-}
