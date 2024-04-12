@@ -98,6 +98,7 @@ nav a {
 header {
   padding: 2rem 0 0 4rem;
   font-size: 1.5rem;
+  margin-left: -15px;
 }
 
 ul {
